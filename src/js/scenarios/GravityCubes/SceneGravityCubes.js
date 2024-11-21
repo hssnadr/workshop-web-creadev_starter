@@ -51,7 +51,6 @@ export default class SceneGravityCubes extends Scene3D {
         /** matter js */
         this.engine = Engine.create({ render: { visible: false } })
         this.engine.gravity.scale *= this.params.gScale
-        console.log(this.engine.gravity)
         this.bodies = [
             this.wallRight.body,
             // this.wallBottom.body,
