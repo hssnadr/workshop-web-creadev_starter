@@ -73,10 +73,8 @@ time.on("update", update)
 
 
 
-
-
 /*
-Hello, j'ai trouver comment utiliser le motion capteur en mode dev sans deploy sur vercel :
+Motion capteur en mode dev sans deploy sur vercel :
 
 npm i -D @vitejs/plugin-basic-ssl
 
